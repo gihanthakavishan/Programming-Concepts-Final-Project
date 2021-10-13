@@ -1,8 +1,6 @@
 # Programming-Concepts-Final-Project
 #
 #
-#
-#
    Presentation Date: 26/10/2021
  #
    Presentation Duration: 10 Minutes
