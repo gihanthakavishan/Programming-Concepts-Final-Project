@@ -29,9 +29,9 @@ design code as an appendix to the report.
 
 
 
-	Nimesh Heshan  73
-	Janith Lahiu   81
-	Gauri Wathsala 86
+	Nimesh Heshan  073
+	Janith Lahiu   081
+	Gauri Wathsala 086
 	Hiruni Hanthanagoda 101
 
 
@@ -53,7 +53,7 @@ design code as an appendix to the report.
 #define PIPE_DIF 45
 
 using namespace std;
-//		cout<<"±±±±±±±±±";
+//		cout<<"Â±Â±Â±Â±Â±Â±Â±Â±Â±";
  
 HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
 COORD CursorPosition;
@@ -87,16 +87,16 @@ void setcursor(bool visible, DWORD size)
 void drawBorder(){ 
 	
 	for(int i=0; i<SCREEN_WIDTH; i++){
-		gotoxy(i,0); cout<<"±";
-		gotoxy(i,SCREEN_HEIGHT); cout<<"±";
+		gotoxy(i,0); cout<<"Â±";
+		gotoxy(i,SCREEN_HEIGHT); cout<<"Â±";
 	}
 	
 	for(int i=0; i<SCREEN_HEIGHT; i++){
-		gotoxy(0,i); cout<<"±";
-		gotoxy(SCREEN_WIDTH,i); cout<<"±";
+		gotoxy(0,i); cout<<"Â±";
+		gotoxy(SCREEN_WIDTH,i); cout<<"Â±";
 	}
 	for(int i=0; i<SCREEN_HEIGHT; i++){
-		gotoxy(WIN_WIDTH,i); cout<<"±";
+		gotoxy(WIN_WIDTH,i); cout<<"Â±";
 	}
 }
 void genPipe(int ind){
