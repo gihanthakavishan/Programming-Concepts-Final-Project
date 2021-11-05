@@ -29,10 +29,10 @@ design code as an appendix to the report.
 
 
 
-	Nimesh Heshan  073
-	Janith Lahiu   081
-	Gauri Wathsala 086
-	Hiruni Hanthanagoda 101
+	Nimesh Heshan  IM/2019/073
+	Janith Lahiu   IM/2019/081
+	Gauri Wathsala IM/2019/086
+	Hiruni Hanthanagoda IM/2019/101
 
 
 
@@ -49,8 +49,8 @@ design code as an appendix to the report.
 #define SCREEN_HEIGHT 26
 #define WIN_WIDTH 70
 #define MENU_WIDTH 20
-#define GAP_SIZE 7
-#define PIPE_DIF 45
+#define GAP_SIZE 7			//the gap between two pipes(vertically)
+#define PIPE_DIF 45		//the difference between two pipes
 
 using namespace std;
 //		cout<<"±±±±±±±±±";
@@ -61,7 +61,7 @@ COORD CursorPosition;
 int pipePos[3];
 int gapPos[3];
 int pipeFlag[3];
-char bird[2][6] = { '/','-','-','o','\\',' ',
+char bird[2][6] = { '/','-','-','o','\\',' ',			//bird image 
 					'|','_','_','_',' ','>' };
 int birdPos = 6;
 int score = 0;
