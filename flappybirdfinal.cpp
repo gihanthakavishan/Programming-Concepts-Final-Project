@@ -37,14 +37,17 @@ design code as an appendix to the report.
 
 
 */
+//header files
 #include<iostream>
 #include<conio.h>
 #include<dos.h>
 #include<stdlib.h>
 #include<string.h>
-#include <windows.h>
+#include <windows.h>		//This contains declarations for all of the functions in the Windows API,
 #include <time.h>
 
+
+//define width and height of screen and menue(place where scores and other details represent)
 #define SCREEN_WIDTH 90
 #define SCREEN_HEIGHT 26
 #define WIN_WIDTH 70
@@ -130,6 +133,7 @@ void drawBird(){
 		}
 	}
 }
+//We can use draw bird function to draw flappy bird on the console....
 void eraseBird(){
 	for(int i=0; i<2; i++){
 		for(int j=0; j<6; j++){
