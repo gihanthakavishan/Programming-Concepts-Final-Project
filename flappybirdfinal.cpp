@@ -17,7 +17,7 @@ the final project. Possible ideas include:
 	Connect Four
 	Any other game
 
-
+***
 
 Your project should be large enough to take about 40-50 hours of coding.
 It is very important that you write easily readable, well-designed code.
